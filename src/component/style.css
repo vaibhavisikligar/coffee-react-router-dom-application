@@ -1,0 +1,56 @@
+.landing-section{
+    background-image: url(../component/imges/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.landing-page h1{
+    width: 50%;
+   font-size: 3.8rem;
+}
+.landing-page h1 span{
+    font-weight: 300;
+}
+.landing-page p{
+    width: 50%;
+    font-size: 1.1rem;
+}
+.lodereffct {
+    position: fixed;
+    top: 35%;
+    left: 35%;
+}
+@media screen and (max-width:576px){
+    .landing-page h1{
+        width: 100%;  
+    }
+    
+    .landing-page p{
+        width: 100%;
+       
+    }
+}
+.footer{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.list-group-item{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 0.2rem 0.2rem;
+}
+.footer-input{
+    position: relative;
+}
+.meassage{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
